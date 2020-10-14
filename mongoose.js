@@ -1,4 +1,4 @@
-use atguitu
+//use atguitu
 db
 //查找年龄是18岁的
 db.students.find({age:18})
@@ -18,4 +18,4 @@ db.students.updateMany({sex:"女"},{$set:{hair:"more"}})
 db.students.updateMany({},{$inc:{age:1}})
 //删除年龄是21岁的第一个人
 db.students.deleteOne({age:21})
-db.students.find({$inc:{age:{$lt:18}},{sex:"女"}})
+//db.students.find({$inc:{age:{$lt:18}},{sex:"女"}})
